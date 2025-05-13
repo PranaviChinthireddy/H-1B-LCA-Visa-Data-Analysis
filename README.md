@@ -1,15 +1,15 @@
-# H-1B LCA Visa Data Analysis & Denial Prediction (2020–2024)
+# H-1B LCA Visa Data Analysis & Denial Prediction: 2020–2024
 
-This project explores the U.S. H-1B visa landscape through the lens of data science. By analyzing over 3.5 million Labor Condition Application (LCA) records filed between 2020 and 2024, we identify denial risk factors, forecast job demand, assess wage trends, and uncover location-based approval patterns using advanced machine learning and time-series models.
+This project applies advanced data science to explore the U.S. H-1B visa landscape. Using over 3.5 million Labor Condition Application (LCA) records from 2020 to 2024, we identify key denial risk factors, forecast job demand, assess wage fairness, and uncover geographic approval patterns through machine learning and time-series modeling.
 
 ## 🔍 Project Goals
 
-- **Forecast Job Market Trends**: Use SARIMA to predict demand for top SOC job titles over the next 24 months.
-- **Predict Visa Denials**: Train ML models to classify visa outcomes based on employer reputation, job role, wages, and region.
-- **Model Comparison**: Evaluate Logistic Regression, Decision Tree, Random Forest, and XGBoost for denial prediction accuracy.
-- **Wage Fairness Analysis**: Compare offered wages to prevailing wages and detect compliance risks.
-- **Geospatial & Economic Risk Profiling**: Analyze how cost of living and violent crime influence approval likelihood.
-- **Post-COVID Employer Patterns**: Track how top H-1B sponsors and wage trends evolved before and after the pandemic.
+- **Forecast Job Market Trends**: Predict future demand for top SOC roles using SARIMA.
+- **Predict Visa Denials**: Classify outcomes using employer reputation, job role, wage, and region.
+- **Compare ML Models**: Evaluate Logistic Regression, Decision Tree, Random Forest, and XGBoost.
+- **Assess Wage Fairness**: Compare offered vs prevailing wages and flag compliance risks.
+- **Profile Geographic Risk**: Analyze cost of living and violent crime impact on approvals.
+- **Track Post-COVID Shifts**: Identify changes in top H-1B sponsors and wage patterns.
 
 ## 🧠 Key Insights
 
@@ -46,15 +46,21 @@ This project explores the U.S. H-1B visa landscape through the lens of data scie
 
 Created with Folium, our maps plot H-1B certified locations by ZIP code and overlay violent crime data, highlighting safety-related risks and regional employer density.
 
-## 📌 Strategic Recommendations
+## 📍 Strategic Recommendations
 
-- **For Job Seekers**: Target high-demand roles, ensure wage competitiveness, and vet employers with a strong approval history.
-- **For Policymakers**: Enforce wage transparency, focus audits on flagged employers, and expand visa accessibility in non-coastal states.
-- **For Analysts**: Incorporate regional economic indicators for more accurate predictions of visa adjudication trends.
+### For Job Seekers
+- Target high-approval roles (e.g., Software Dev, BI Analyst)
+- Avoid employers with a poor compliance history
+- Choose locations with high wage-to-cost-of-living ratios
 
-## 🧪 Future Enhancements
+### For Employers
+- Ensure wage offers exceed prevailing wage thresholds
+- Avoid risky job descriptions or borderline roles
+- Monitor denial trends by region and role
 
-- Use SHAP for model explainability.
-- Apply SARIMAX with macroeconomic variables.
-- Deploy real-time dashboards using Power BI or Tableau Public.
-- Integrate APIs for live labor market data (e.g., BLS, USCIS updates).
+### For Policymakers
+- Expand employer access beyond high-volume metro areas
+- Promote wage transparency and cost-of-living indexing
+- Use ML-driven forecasting to inform cap planning and audits
+
+These findings support data-driven decision-making for job seekers, employers, and immigration analysts navigating the evolving U.S. labor market.
