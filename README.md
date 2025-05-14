@@ -21,7 +21,8 @@ This project applies advanced data science to explore the U.S. H-1B visa landsca
 
 ## 📊 Data Sources
 
-- **H-1B LCA Disclosure Data (FY2020–2024)** – Kaggle (3.5M+ rows, 69 columns)
+- **[H-1B LCA Disclosure Data (FY2020–2024) – Kaggle](https://www.kaggle.com/datasets/zongaobian/h1b-lca-disclosure-data-2020-2024)**  
+  *(3.5M+ rows, 69 columns; includes employer, job, wage, location, and decision outcome data)*
 - **Cost of Living by ZIP Code** – Merged by `worksite_postal_code`
 - **Crime Statistics by ZIP Code** – U.S. national crime dataset
 
